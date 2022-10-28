@@ -1,0 +1,1289 @@
+[
+	{
+	  "name": "Isaac Newton",
+	  "birthYear": 1643,
+	  "deathYear": 1727,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Galileo Galilei",
+	  "birthYear": 1564,
+	  "deathYear": 1642,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Johannes Kepler",
+	  "birthYear": 1571,
+	  "deathYear": 1630,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "René Descartes",
+	  "birthYear": 1596,
+	  "deathYear": 1650,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Baruch Spinoza",
+	  "birthYear": 1632,
+	  "deathYear": 1677,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Gottfried Wilhelm Leibniz",
+	  "birthYear": 1646,
+	  "deathYear": 1716,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Archimedes",
+	  "birthYear": -287,
+	  "deathYear": -212,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Leonhard Euler",
+	  "birthYear": 1707,
+	  "deathYear": 1783,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Immanuel Kant",
+	  "birthYear": 1724,
+	  "deathYear": 1804,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Gerolamo Cardano",
+	  "birthYear": 1501,
+	  "deathYear": 1576,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Fibonacci",
+	  "birthYear": 1170,
+	  "deathYear": 1250,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Harezmi",
+	  "birthYear": 780,
+	  "deathYear": 847,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Pierre de Fermat",
+	  "birthYear": 1607,
+	  "deathYear": 1665,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Bernhard Riemann",
+	  "birthYear": 1826,
+	  "deathYear": 1866,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Georg Cantor",
+	  "birthYear": 1845,
+	  "deathYear": 1918,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Henri Poincaré",
+	  "birthYear": 1854,
+	  "deathYear": 1912,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "John Locke",
+	  "birthYear": 1632,
+	  "deathYear": 1704,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "David Hume",
+	  "birthYear": 1711,
+	  "deathYear": 1776,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Voltaire",
+	  "birthYear": 1694,
+	  "deathYear": 1778,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Søren Kierkegaard",
+	  "birthYear": 1813,
+	  "deathYear": 1855,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Adam Smith",
+	  "birthYear": 1723,
+	  "deathYear": 1790,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "David Ricardo",
+	  "birthYear": 1772,
+	  "deathYear": 1823,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Jeremy Bentham",
+	  "birthYear": 1748,
+	  "deathYear": 1832,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Denis Diderot",
+	  "birthYear": 1713,
+	  "deathYear": 1784,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Kurt Gödel",
+	  "birthYear": 1906,
+	  "deathYear": 1978,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "David Hilbert",
+	  "birthYear": 1862,
+	  "deathYear": 1943,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Alan Turing",
+	  "birthYear": 1912,
+	  "deathYear": 1954,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Giuseppe Peano",
+	  "birthYear": 1858,
+	  "deathYear": 1932,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Gottlob Frege",
+	  "birthYear": 1848,
+	  "deathYear": 1925,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Bertrand Russell",
+	  "birthYear": 1872,
+	  "deathYear": 1970,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Euclid",
+	  "birthYear": -325,
+	  "deathYear": -265,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Pythagoras",
+	  "birthYear": -570,
+	  "deathYear": -495,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Thales",
+	  "birthYear": -624,
+	  "deathYear": -548,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Socrates",
+	  "birthYear": -470,
+	  "deathYear": -399,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Parmenides",
+	  "birthYear": -540,
+	  "deathYear": -470,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Heraclitus",
+	  "birthYear": -550,
+	  "deathYear": -470,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Anaxagoras",
+	  "birthYear": -500,
+	  "deathYear": -428,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "St. Augustine",
+	  "birthYear": 354,
+	  "deathYear": 430,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Thomas Aquinas",
+	  "birthYear": 1225,
+	  "deathYear": 1274,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Nicolas Malebranche",
+	  "birthYear": 1638,
+	  "deathYear": 1715,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Plato",
+	  "birthYear": -428,
+	  "deathYear": -347,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Homer",
+	  "birthYear": -720,
+	  "deathYear": -620,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Hesiod",
+	  "birthYear": -750,
+	  "deathYear": -650,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Ludwig Wittgenstein",
+	  "birthYear": 1889,
+	  "deathYear": 1951,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Ferdinand de Saussure",
+	  "birthYear": 1857,
+	  "deathYear": 1913,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Roman Jakobson",
+	  "birthYear": 1896,
+	  "deathYear": 1982,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Claude Lévi-Strauss",
+	  "birthYear": 1908,
+	  "deathYear": 2009,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Georg Wilhelm Friedrich Hegel",
+	  "birthYear": 1770,
+	  "deathYear": 1831,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Aristotle",
+	  "birthYear": -384,
+	  "deathYear": -322,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Empedocles",
+	  "birthYear": -494,
+	  "deathYear": -434,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Epicurus",
+	  "birthYear": -341,
+	  "deathYear": -270,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Democritus",
+	  "birthYear": -460,
+	  "deathYear": -370,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Lucretius",
+	  "birthYear": -99,
+	  "deathYear": -55,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Thomas Hobbes",
+	  "birthYear": 1588,
+	  "deathYear": 1679,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Cicero",
+	  "birthYear": -106,
+	  "deathYear": -43,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Niccolò Machiavelli",
+	  "birthYear": 1469,
+	  "deathYear": 1527,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Francis Bacon",
+	  "birthYear": 1561,
+	  "deathYear": 1626,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Friedrich Nietzsche",
+	  "birthYear": 1844,
+	  "deathYear": 1900,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Robert Boyle",
+	  "birthYear": 1627,
+	  "deathYear": 1691,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Johann Gottlieb Fichte",
+	  "birthYear": 1762,
+	  "deathYear": 1814,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Friedrich Wilhelm Joseph Schelling",
+	  "birthYear": 1775,
+	  "deathYear": 1854,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Jean-Jacques Rousseau",
+	  "birthYear": 1712,
+	  "deathYear": 1778,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Ptolemy",
+	  "birthYear": 100,
+	  "deathYear": 170,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Nicolaus Copernicus",
+	  "birthYear": 1473,
+	  "deathYear": 1543,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Karl Marx",
+	  "birthYear": 1818,
+	  "deathYear": 1883,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Friedrich Engels",
+	  "birthYear": 1820,
+	  "deathYear": 1895,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Charles Darwin",
+	  "birthYear": 1809,
+	  "deathYear": 1882,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Sigmund Freud",
+	  "birthYear": 1856,
+	  "deathYear": 1939,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Sophocles",
+	  "birthYear": -496,
+	  "deathYear": -405,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Marquis de Sade",
+	  "birthYear": 1740,
+	  "deathYear": 1814,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "İbn Rüşd",
+	  "birthYear": 1126,
+	  "deathYear": 1198,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Farabi",
+	  "birthYear": 870,
+	  "deathYear": 950,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "İbn Sina",
+	  "birthYear": 980,
+	  "deathYear": 1037,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Gazali",
+	  "birthYear": 1058,
+	  "deathYear": 1111,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "İbn Bacce",
+	  "birthYear": 1085,
+	  "deathYear": 1138,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "İbn Tufeyl",
+	  "birthYear": 1105,
+	  "deathYear": 1185,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Maimonides",
+	  "birthYear": 1135,
+	  "deathYear": 1204,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "James Joyce",
+	  "birthYear": 1882,
+	  "deathYear": 1941,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Kindi",
+	  "birthYear": 801,
+	  "deathYear": 873,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Ömer Hayyam",
+	  "birthYear": 1048,
+	  "deathYear": 1131,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Tusi",
+	  "birthYear": 1201,
+	  "deathYear": 1274,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "İbn Haldun",
+	  "birthYear": 1332,
+	  "deathYear": 1406,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Blaise Pascal",
+	  "birthYear": 1623,
+	  "deathYear": 1662,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Evangelista Torricelli",
+	  "birthYear": 1608,
+	  "deathYear": 1647,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Henri Bergson",
+	  "birthYear": 1859,
+	  "deathYear": 1941,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Arthur Schopenhauer",
+	  "birthYear": 1788,
+	  "deathYear": 1860,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "George Berkeley",
+	  "birthYear": 1734,
+	  "deathYear": 1753,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Albert Einstein",
+	  "birthYear": 1879,
+	  "deathYear": 1955,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Hermann Minkowski",
+	  "birthYear": 1864,
+	  "deathYear": 1909,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Hendrik Lorentz",
+	  "birthYear": 1853,
+	  "deathYear": 1928,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "James Clerk Maxwell",
+	  "birthYear": 1831,
+	  "deathYear": 1879,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Michael Faraday",
+	  "birthYear": 1791,
+	  "deathYear": 1867,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Ernest Rutherford",
+	  "birthYear": 1871,
+	  "deathYear": 1937,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Erwin Schrödinger",
+	  "birthYear": 1887,
+	  "deathYear": 1961,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Werner Heisenberg",
+	  "birthYear": 1901,
+	  "deathYear": 1976,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Niels Bohr",
+	  "birthYear": 1885,
+	  "deathYear": 1962,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Paul Dirac",
+	  "birthYear": 1902,
+	  "deathYear": 1984,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Wolfgang Pauli",
+	  "birthYear": 1900,
+	  "deathYear": 1958,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Maurice Merleau-Ponty",
+	  "birthYear": 1908,
+	  "deathYear": 1961,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Gaston Bachelard",
+	  "birthYear": 1884,
+	  "deathYear": 1962,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Edmund Husserl",
+	  "birthYear": 1859,
+	  "deathYear": 1938,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Martin Heidegger",
+	  "birthYear": 1889,
+	  "deathYear": 1976,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Jacques Lacan",
+	  "birthYear": 1901,
+	  "deathYear": 1981,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Alexandre Kojève",
+	  "birthYear": 1902,
+	  "deathYear": 1968,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Alexandre Koyré",
+	  "birthYear": 1892,
+	  "deathYear": 1964,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Michel Foucault",
+	  "birthYear": 1926,
+	  "deathYear": 1984,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Gilles Deleuze",
+	  "birthYear": 1925,
+	  "deathYear": 1995,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Jean Hyppolite",
+	  "birthYear": 1907,
+	  "deathYear": 1968,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Jacques Derrida",
+	  "birthYear": 1930,
+	  "deathYear": 2004,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Louis Althusser",
+	  "birthYear": 1918,
+	  "deathYear": 1990,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Alfred North Whitehead",
+	  "birthYear": 1861,
+	  "deathYear": 1947,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Plotinus",
+	  "birthYear": 204,
+	  "deathYear": 270,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Charles Sanders Peirce",
+	  "birthYear": 1839,
+	  "deathYear": 1914,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Rudolf Carnap",
+	  "birthYear": 1891,
+	  "deathYear": 1970,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Alfred Tarski",
+	  "birthYear": 1901,
+	  "deathYear": 1983,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Saul Kripke",
+	  "birthYear": 1940,
+	  "deathYear": 2022,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Willard Van Orman Quine",
+	  "birthYear": 1908,
+	  "deathYear": 2000,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Boethius",
+	  "birthYear": 480,
+	  "deathYear": 524,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "William of Ockham",
+	  "birthYear": 1285,
+	  "deathYear": 1347,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Martin Luther",
+	  "birthYear": 1483,
+	  "deathYear": 1546,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Walter Benjamin",
+	  "birthYear": 1892,
+	  "deathYear": 1940,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "György Lukács",
+	  "birthYear": 1885,
+	  "deathYear": 1971,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Rosa Luxemburg",
+	  "birthYear": 1871,
+	  "deathYear": 1919,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Vladimir Lenin",
+	  "birthYear": 1870,
+	  "deathYear": 1924,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Aristarchus",
+	  "birthYear": -310,
+	  "deathYear": -230,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Herodotus",
+	  "birthYear": -484,
+	  "deathYear": -425,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Diogenes",
+	  "birthYear": -412,
+	  "deathYear": -323,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Antonio Gramsci",
+	  "birthYear": 1891,
+	  "deathYear": 1937,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Carl Friedrich Gauss",
+	  "birthYear": 1777,
+	  "deathYear": 1855,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Emmy Noether",
+	  "birthYear": 1882,
+	  "deathYear": 1935,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Charles Babbage",
+	  "birthYear": 1791,
+	  "deathYear": 1871,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Ada Lovelace",
+	  "birthYear": 1815,
+	  "deathYear": 1852,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Évariste Galois",
+	  "birthYear": 1811,
+	  "deathYear": 1832,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Niels Henrik Abel",
+	  "birthYear": 1802,
+	  "deathYear": 1829,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Carl Gustav Jacob Jacobi",
+	  "birthYear": 1804,
+	  "deathYear": 1851,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Joseph-Louis Lagrange",
+	  "birthYear": 1736,
+	  "deathYear": 1813,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "William Rowan Hamilton",
+	  "birthYear": 1805,
+	  "deathYear": 1865,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "George Boole",
+	  "birthYear": 1815,
+	  "deathYear": 1864,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Joseph Fourier",
+	  "birthYear": 1768,
+	  "deathYear": 1830,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Peter Gustav Lejeune Dirichlet",
+	  "birthYear": 1805,
+	  "deathYear": 1859,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Siméon Denis Poisson",
+	  "birthYear": 1781,
+	  "deathYear": 1840,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Pierre-Simon Laplace",
+	  "birthYear": 1749,
+	  "deathYear": 1827,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Niccolò Fontana Tartaglia",
+	  "birthYear": 1499,
+	  "deathYear": 1557,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	}
+  ]

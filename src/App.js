@@ -1,25 +1,32 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import { Timeline } from "./components/timeline";
+import { useWindowResize } from "./hooks/useWindowResize";
+import timelineData from "./assets/timelineData.json";
 
 function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
-  );
+	const [windowWidth, windowHeight] = useWindowResize();
+
+	const timelineDataProps = {
+		timelineData: timelineData
+			.sort((a, b) => a.birthYear - b.birthYear)
+			.map((item) => {
+				return {
+					...item,
+					color: `hsl(
+						${Math.floor(Math.random() * 360)},
+						${Math.floor(Math.random() * 100)}%,
+						${Math.min(Math.floor(Math.random() * 100), 70)}%)`,
+				};
+			}),
+		windowWidth,
+		windowHeight,
+	};
+
+	return (
+		<div className="App">
+			<Timeline {...timelineDataProps} />
+		</div>
+	);
 }
 
 export default App;
