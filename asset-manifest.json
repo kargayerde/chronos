@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/chronos/static/css/main.c640cb46.css",
+    "main.js": "/chronos/static/js/main.38629d4f.js",
+    "index.html": "/chronos/index.html",
+    "main.c640cb46.css.map": "/chronos/static/css/main.c640cb46.css.map",
+    "main.38629d4f.js.map": "/chronos/static/js/main.38629d4f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c640cb46.css",
+    "static/js/main.38629d4f.js"
+  ]
+}
