@@ -1,4 +1,5 @@
 import React, { useRef, useEffect, useState } from "react";
+import { shortenName } from "../utils/utils";
 
 const styles = {
 	timelineFrame: {
@@ -6,10 +7,10 @@ const styles = {
 		height: "100%",
 		background: "aliceblue",
 		overflow: "hidden",
-		"-webkit-user-select": "none" /* Chrome all / Safari all */,
-		"-moz-user-select": "none" /* Firefox all */,
-		"-ms-user-select": "none" /* IE 10+ */,
-		"user-select": "none",
+		WebkitUserSelect: "none" /* Chrome all / Safari all */,
+		MozUserSelect: "none" /* Firefox all */,
+		msUserSelect: "none" /* IE 10+ */,
+		userSelect: "none",
 	},
 	yearsFrame: {
 		width: "100%",
@@ -38,7 +39,7 @@ export const Timeline = ({ ...props }) => {
 	}, [windowWidth, windowHeight, yearCount]);
 
 	useEffect(() => {
-		timelineRef.current.addEventListener("wheel", (e) => handleWheel(e), true);
+		timelineRef.current.addEventListener("wheel", (e) => handleWheel(e), { passive: false });
 	}, []);
 
 	const zoom = (percentage) => {
@@ -73,23 +74,25 @@ export const Timeline = ({ ...props }) => {
 
 	const handleDrag = (event) => {
 		const { screenX, screenY } = event;
-		const { x, y } = mouseDown;
+		const { x, y, continued } = mouseDown;
 		const [deltaX, deltaY] = [screenX - x, screenY - y];
-		if (Math.abs(deltaX) >= 10) pan("x", -((yearCount / 50) * deltaX) / 100);
-		if (Math.abs(deltaY) >= 10) pan("y", deltaY / 2);
-		setMouseDown({ x: screenX, y: screenY });
+		const coefficient = 0.3;
+		if (continued || Math.abs(deltaX) >= 10)
+			pan("x", -((yearCount / 2000) * deltaX * coefficient));
+		if (continued || Math.abs(deltaY) >= 10) pan("y", deltaY * coefficient);
+		setMouseDown({ x: screenX, y: screenY, continued: true });
 	};
 
 	const drawGrid = () => {
 		const drawBaseLine = () => {
 			const posY = baseLineY;
-			if (posY < 0 || posY > timelineSize.height)
-				return console.log(`baseline out of bounds: y = ${baseLineY}`);
+			if (posY < 0 || posY > timelineSize.height) return;
 
 			const lineWidth = 6;
 
 			return (
 				<svg
+					key={posY}
 					width={timelineSize.width}
 					height={lineWidth}
 					style={{ position: "fixed", top: `${posY}px`, zIndex: "400" }}
@@ -133,7 +136,35 @@ export const Timeline = ({ ...props }) => {
 			}
 			return intervalLines;
 		};
-		return [drawBaseLine(), drawIntervals()];
+
+		const drawEndLine = () => {
+			const lineWidth = 5;
+			const today = new Date().getFullYear();
+			const [startYear, endYear] = [
+				selectedYear - yearCount / 2,
+				selectedYear + yearCount / 2,
+			];
+			const posX = (today - startYear) * yearGap;
+			if (today > startYear && today < endYear)
+				return (
+					<svg
+						key={"endline"}
+						width={lineWidth}
+						height={timelineSize.height}
+						style={{ position: "fixed", left: `${posX}px`, zIndex: "100" }}
+					>
+						<line
+							x1="0"
+							y1="0"
+							x2="0"
+							y2={timelineSize.height}
+							stroke="red"
+							strokeWidth={lineWidth}
+						/>
+					</svg>
+				);
+		};
+		return [drawBaseLine(), drawIntervals(), drawEndLine()];
 	};
 
 	const drawElements = () => {
@@ -143,7 +174,7 @@ export const Timeline = ({ ...props }) => {
 
 		const allocateRow = (birthYear, deathYear) => {
 			let allocationIndex = reservedRows.findIndex((item) => item < birthYear);
-			if (allocationIndex == -1) {
+			if (allocationIndex === -1) {
 				allocationIndex = reservedRows.length;
 				reservedRows.push(deathYear);
 			} else {
@@ -154,6 +185,7 @@ export const Timeline = ({ ...props }) => {
 
 		return timelineData.map((item, index) => {
 			const { name, birthYear, deathYear, color } = item;
+			const shortName = shortenName(name);
 			const lifeSpan = deathYear - birthYear;
 			if (lifeSpan <= 0) return console.log(`${item.name} lifespan too short`);
 			const lineLength = lifeSpan * yearGap;
@@ -161,11 +193,11 @@ export const Timeline = ({ ...props }) => {
 			const rowIndex = allocateRow(birthYear, deathYear);
 			const posY = baseLineY - rowIndex * rowSpacing - 10;
 			const posX = yearGap * (birthYear - selectedYear) + timelineSize.width / 2;
-			if (posY < 0 || posY > timelineSize.height || posX < 0 || posX > timelineSize.width)
-				return;
+			// if (posY < 0 || posY > timelineSize.height || posX < 0 || posX > timelineSize.width)
+			// 	return;
 
 			return (
-				<React.Fragment>
+				<React.Fragment key={index}>
 					<span
 						key={index}
 						style={{
@@ -176,10 +208,10 @@ export const Timeline = ({ ...props }) => {
 							zIndex: "500",
 						}}
 					>
-						{name.split(" ").pop()}
+						{shortName}
 					</span>
 					<svg
-						key={index + "svg"}
+						key={index + "s"}
 						width={lineLength}
 						height={lineWidth}
 						style={{
@@ -211,7 +243,9 @@ export const Timeline = ({ ...props }) => {
 		for (let year = Math.ceil(startYear); year < endYear; year += step) {
 			const posX = ((year - startYear) / yearCount) * timelineSize.width;
 			smallYears.push(
-				<div style={{ position: "fixed", top: baseLineY + 3, left: posX }}>{year}</div>
+				<div key={year} style={{ position: "fixed", top: baseLineY + 3, left: posX }}>
+					{year}
+				</div>
 			);
 		}
 		return (
@@ -227,7 +261,7 @@ export const Timeline = ({ ...props }) => {
 			ref={timelineRef}
 			style={styles.timelineFrame}
 			onMouseDown={(e) => {
-				setMouseDown({ x: e.screenX, y: e.screenY });
+				setMouseDown({ x: e.screenX, y: e.screenY, continued: false });
 			}}
 			onMouseUp={() => setMouseDown(false)}
 			onMouseMove={(e) => {

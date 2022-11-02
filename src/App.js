@@ -1,12 +1,17 @@
 import "./App.css";
 import { Timeline } from "./components/timeline";
+import { SettingsBox } from "./components/settingsBox";
 import { useWindowResize } from "./hooks/useWindowResize";
-import timelineData from "./assets/timelineData.json";
+import exampleData from "./assets/exampleData.json";
+import { useState, useEffect } from "react";
 
 function App() {
 	const [windowWidth, windowHeight] = useWindowResize();
+	const localData = JSON.parse(localStorage.getItem("timeline-data"));
+	const [timelineData, setTimelineData] = useState(localData || exampleData);
+	const [settingsBoxOpen, setSettingsBoxOpen] = useState(true);
 
-	const timelineDataProps = {
+	const timelineProps = {
 		timelineData: timelineData
 			.sort((a, b) => a.birthYear - b.birthYear)
 			.map((item) => {
@@ -22,9 +27,22 @@ function App() {
 		windowHeight,
 	};
 
+	const settingsBoxProps = { timelineData, setTimelineData, exampleData };
+
+	useEffect(() => {
+		localStorage.setItem("timeline-data", JSON.stringify(timelineData));
+	}, [timelineData]);
+
 	return (
 		<div className="App">
-			<Timeline {...timelineDataProps} />
+			<Timeline {...timelineProps} />
+			<button
+				style={{ position: "fixed", top: "10px", left: "10px", zIndex: 800 }}
+				onClick={() => setSettingsBoxOpen((old) => !old)}
+			>
+				Settings
+			</button>
+			{settingsBoxOpen ? <SettingsBox {...settingsBoxProps} /> : null}
 		</div>
 	);
 }

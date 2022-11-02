@@ -775,7 +775,7 @@
 	},
 	{
 	  "name": "George Berkeley",
-	  "birthYear": 1734,
+	  "birthYear": 1685,
 	  "deathYear": 1753,
 	  "activityStart": "",
 	  "activityEnd": "",
@@ -1281,6 +1281,204 @@
 	  "name": "Niccolò Fontana Tartaglia",
 	  "birthYear": 1499,
 	  "deathYear": 1557,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Aeschylus",
+	  "birthYear": -525,
+	  "deathYear": -456,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Euripides",
+	  "birthYear": -480,
+	  "deathYear": -406,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Aristophanes",
+	  "birthYear": -446,
+	  "deathYear": -386,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Hippocrates",
+	  "birthYear": -460,
+	  "deathYear": -370,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Galen",
+	  "birthYear": 129,
+	  "deathYear": 216,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "William Harvey",
+	  "birthYear": 1578,
+	  "deathYear": 1657,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Srinivasa Ramanujan",
+	  "birthYear": 1887,
+	  "deathYear": 1920,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Ernst Zermelo",
+	  "birthYear": 1871,
+	  "deathYear": 1953,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Abraham Fraenkel",
+	  "birthYear": 1891,
+	  "deathYear": 1965,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "John von Neumann",
+	  "birthYear": 1903,
+	  "deathYear": 1957,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Christiaan Huygens",
+	  "birthYear": 1629,
+	  "deathYear": 1695,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Antoine Lavoisier",
+	  "birthYear": 1743,
+	  "deathYear": 1794,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Amedeo Avogadro",
+	  "birthYear": 1776,
+	  "deathYear": 1856,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "J. J. Thomson",
+	  "birthYear": 1856,
+	  "deathYear": 1940,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Marie Curie",
+	  "birthYear": 1867,
+	  "deathYear": 1934,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Louis de Broglie",
+	  "birthYear": 1892,
+	  "deathYear": 1987,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Seneca",
+	  "birthYear": -4,
+	  "deathYear": 65,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Zeno of Citium",
+	  "birthYear": -334,
+	  "deathYear": -262,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Epictetus",
+	  "birthYear": 50,
+	  "deathYear": 135,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Marcus Aurelius",
+	  "birthYear": 121,
+	  "deathYear": 180,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Tertullian",
+	  "birthYear": 155,
+	  "deathYear": 220,
+	  "activityStart": "",
+	  "activityEnd": "",
+	  "field": "",
+	  "notes": ""
+	},
+	{
+	  "name": "Zeno of Elea",
+	  "birthYear": -495,
+	  "deathYear": -430,
 	  "activityStart": "",
 	  "activityEnd": "",
 	  "field": "",
