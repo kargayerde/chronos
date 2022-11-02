@@ -4,7 +4,7 @@ const styles = {
 	settingsBox: {
 		width: "max-content",
 		height: "max-content",
-		background: "bisque",
+		background: "lightgrey",
 		zIndex: 1000,
 		position: "fixed",
 		top: "30px",

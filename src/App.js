@@ -9,7 +9,7 @@ function App() {
 	const [windowWidth, windowHeight] = useWindowResize();
 	const localData = JSON.parse(localStorage.getItem("timeline-data"));
 	const [timelineData, setTimelineData] = useState(localData || exampleData);
-	const [settingsBoxOpen, setSettingsBoxOpen] = useState(true);
+	const [settingsBoxOpen, setSettingsBoxOpen] = useState(false);
 
 	const timelineProps = {
 		timelineData: timelineData
